@@ -1,11 +1,13 @@
 terraform {
 
+/*
   cloud {
     organization = "AwsTutorialsCorp"
     workspaces {
       name = "learn-tfc-aws"
     }
   }
+*/
 
   required_providers {
     aws = {
